@@ -1,0 +1,353 @@
+body{
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
+}
+
+h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+.logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+.menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+.logo, .menu{
+    line-height: 75px;
+}
+
+.menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/0/09/Newcastle-upon-Tyne-bridges-and-skyline_panorama.jpg") no-repeat center center;
+
+    
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(41, 38, 38, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
+
+#why-visit{
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/4/4a/Arms_of_Newcastle_upon_Tyne_City_Council.svg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+#notable{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/Buildings_on_Sandhill_%28geograph_6394694%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#notable div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fafafa;
+}
+
+footer{
+    height: 150px;
+    background-color: #252525;
+    color: #fafafa;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
+}
+
+#photo {
+    clear: both;
+    line-height: 0px;
+    column-count: 1;
+    column-gap: 10px;
+    border: #252525;
+    padding: 10%; 
+}
+
+.photo img{
+    width: 100%;
+    border: #252525;
+    padding: 10%; 
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#bars {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#black-bar {
+    color: #fafafa;
+    background-color: #252525;
+
+}
+
+#white-bar{
+    color: #252525;
+    background-color: #fafafa;
+}
+ 
+.first-bar-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("https://www.nufc.co.uk/media/45565/d4s_3740.jpg?center=0.5,0.5&mode=crop&width=600&height=338&quality=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.second-bar-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("https://i2-prod.chroniclelive.co.uk/incoming/article19401198.ece/ALTERNATES/s1200b/0_SGP_NEC_311215LEMMY03JPG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.third-bar-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("https://jumbled-peacock.transforms.svdcdn.com/production/assets/images/business-directory/The-Dog-Parrot-Newcastle.jpg?w=1920&h=450&q=90&fm=webp&fit=crop&dm=1599737225&s=099f0627e8d6b611e69dfc9dd335f1c0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.four-bar-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipNCceYT2DVlPPrMMOtSN2GCxfnGzAAohBfPi2Ye=s680-w680-h510");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#clubs {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#black-club {
+    color: #fafafa;
+    background-color: #252525;
+
+}
+
+#white-club {
+    color: #252525;
+    background-color: #fafafa;
+}
+ 
+.first-club-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDIxLzQvMjgvNi8xNy8yMC8yOTYvUklTRS1SRU1JWC1HUkVZUy5qcGciXV0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.second-club-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("https://venuelive.co.uk/wp-content/uploads/listing-uploads/gallery/2023/11/Tup-Tup-Palace-Newcastle-Event-Hire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.third-club-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("2wCEAAoHCBUVFRgWFRUYGBgYGBoYGBgYGBgYGRgaGBgZHBgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISGjQlJSs0NDQ0NDQ0NDQ0NjQ0NDQ0NDQ0NDE0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.four-club-about {
+    float: left;
+    background-color: rgba(0,0,0, .6);
+    color: #fafafa;
+    background-image: url("https://licklist.s3-eu-west-2.amazonaws.com/images/original/000/000/073/075/476-hgjrqipxrbgiiz51.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
