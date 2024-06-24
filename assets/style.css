@@ -211,8 +211,8 @@ footer{
 
 #photo {
     clear: both;
-    line-height: 0px;
-    column-count: 1;
+    line-height: 10px;
+    column-count: 2;
     column-gap: 10px;
     border: #252525;
     padding: 10%;
