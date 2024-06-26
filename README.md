@@ -104,6 +104,9 @@
 - [Font awesome](https://fontawesome.com/)
   - I used icons from font awesome to visually distinguish sections of the text and on buttons.
 
+[Wikimedia](https://commons.wikimedia.org/w/index.php?search=Newcastle+upon+Tyne&title=Special:MediaSearch&type=image&fileres=500%2C1000)
+- I used wikimedia to collect images for the websites background and hero images.
+
 - [Git](https://git-scm.com/)
   - Git was used as a version control in the terminal.
 
