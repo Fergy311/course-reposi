@@ -112,6 +112,8 @@
   
   # Deployment
 
+  ## [wireframe](https://drive.google.com/file/d/1MQK76zw1qkmr_za0lSnWQV9YRDL_L1I2/view?usp=sharing)
+
 ## GitHub Pages
 
 The project was deployed to GitHub Pages using these steps:
